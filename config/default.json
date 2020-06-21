@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://astircus:DBmongo@devconnectcluster-aykfv.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "astriSecretToken",
+  "githubClientId": "ac68ee8d0985f53dd9e6",
+  "githubSecret": "cf4956a48bbe3c4d43ac3c716ff32a52a8a0684a"
+}
