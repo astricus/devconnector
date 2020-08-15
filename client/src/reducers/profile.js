@@ -9,18 +9,18 @@ const initialState = {
 };
 
 export default function (state = initialState, action) {
-  const { type, paylaod } = action;
+  const { type, payload } = action;
   switch (type) {
     case GET_PROFILE:
       return {
         ...state,
-        profile: paylaod,
+        profile: payload,
         loading: false,
       };
     case PROFILE_ERROR:
       return {
         ...state,
-        error: paylaod,
+        error: payload,
         loading: false,
       };
     case CLEAR_PROFILE:
