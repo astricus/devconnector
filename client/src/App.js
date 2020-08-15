@@ -6,6 +6,7 @@ import Login from './components/auth/Login';
 import Register from './components/auth/Register';
 import Alert from './components/layout/Alert';
 import './App.css';
+
 // Redux
 import { Provider } from 'react-redux';
 import store from './store';
